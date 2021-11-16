@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+<!--    如何选择了无顶部导航主题，则菜单无法显示-->
+    <style name="Theme.MyWeather" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <!--        去掉顶部系统导航栏-->
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+    <color name="colorPrimary">#75B8B6</color>
+    <color name="colorPrimaryVariant">#40DCAA</color>
+    <color name="colorOnPrimary">#2DA57B</color>
+
+</resources>
