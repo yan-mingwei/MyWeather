@@ -7,4 +7,4 @@
 
 再次修改了ui
 
-测试 git diff
+测试 git diff, 并且再次测试 commit --amend
